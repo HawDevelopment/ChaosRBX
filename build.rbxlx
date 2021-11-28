@@ -1,0 +1,1996 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX3043BC628CC94B6FB1A21BF8001948C3">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<token name="AnimationWeightedBlendFix">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="ClientAnimatorThrottling">0</token>
+			<string name="CollisionGroups">Default^0^-1</string>
+			<Ref name="CurrentCamera">RBX50F89403C1414A14A114E2BEA3A5B706</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<float name="Gravity">196.199997</float>
+			<token name="HumanoidOnlySetCollisionsOnStateChange">0</token>
+			<token name="InterpolationThrottling">0</token>
+			<token name="LevelOfDetail">0</token>
+			<token name="MeshPartHeadsAndAccessories">0</token>
+			<CoordinateFrame name="ModelMeshCFrame">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+			<Vector3 name="ModelMeshSize">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<string name="Name">Workspace</string>
+			<bool name="NeedsPivotMigration">false</bool>
+			<token name="PhysicsSteppingMethod">0</token>
+			<Ref name="PrimaryPart">null</Ref>
+			<token name="Retargeting">0</token>
+			<token name="SignalBehavior">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<token name="StreamOutBehavior">0</token>
+			<bool name="StreamingEnabled">false</bool>
+			<int name="StreamingMinRadius">64</int>
+			<token name="StreamingPauseMode">0</token>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TerrainWeldsFixed">true</bool>
+			<bool name="TouchesUseCollisionGroups">false</bool>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc000190a0</UniqueId>
+			<OptionalCoordinateFrame name="WorldPivotData">
+				<CFrame>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+			</OptionalCoordinateFrame>
+		</Properties>
+		<Item class="Camera" referent="RBX50F89403C1414A14A114E2BEA3A5B706">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-28.5424767</X>
+					<Y>29.9725304</Y>
+					<Z>20.867569</Z>
+					<R00>0.127820581</R00>
+					<R01>0.44354409</R01>
+					<R02>-0.8870911</R02>
+					<R10>-3.7252903e-09</R10>
+					<R11>0.894427836</R11>
+					<R12>0.447212428</R12>
+					<R20>0.991797328</R20>
+					<R21>-0.057162948</R21>
+					<R22>0.114326283</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<token name="FieldOfViewMode">0</token>
+				<CoordinateFrame name="Focus">
+					<X>-26.7682915</X>
+					<Y>29.078104</Y>
+					<Z>20.638916</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a494</UniqueId>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX44ED1313555C49FAB0DA9A53C3138023">
+			<Properties>
+				<token name="AcquisitionMethod">0</token>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="Decoration">false</bool>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a51b</UniqueId>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0.0500000007</R>
+					<G>0.330000013</G>
+					<B>0.360000014</B>
+				</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBXD08908666FCF4DC49127FF8BDDB9378C">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>-5</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Base</string>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">1</float>
+				<UniqueId name="UniqueId">6a999fd6cfac58e501b4f23500024129</UniqueId>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>10</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBXA283AD965E6D413C87D54C17203F83FA">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a44b</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBX015DF8D17E5F43898DEDAD519F9DD4A2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a457</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBXEEE7867CD2944CE99FD67935A731DCBA">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a458</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBXBDF04BA9C3F0497DA426DF1871666A65">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BubbleChatEnabled">false</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a45d</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX291D64976A6544519F48D0278505D412">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a45e</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBXAC8630B8398A457E89DAC9ED63EB3E2E">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">0</int>
+			<float name="RespawnTime">5</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a460</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBXE99674C332F2475D8CA9ADDDAD8110B4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedFirst</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a464</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBXC759B6A1C9524C4CA09483A87C86DCEF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TweenService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a466</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="PermissionsService" referent="RBX0F960AF044574E1BAF453DC27F598123">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PermissionsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a46a</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="PlayerEmulatorService" referent="RBX312A3229232545ECBC77BC12637CAA26">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="CustomPoliciesEnabled">false</bool>
+			<string name="EmulatedCountryCode"></string>
+			<string name="EmulatedGameLocale"></string>
+			<string name="Name">PlayerEmulatorService</string>
+			<bool name="PlayerEmulationEnabled">false</bool>
+			<BinaryString name="SerializedEmulatedPolicyInfo"></BinaryString>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a46c</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="StudioData" referent="RBXAEA94575B42A46209162598DC4D381B5">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int64 name="CommitInflightAuthorId">0</int64>
+			<string name="CommitInflightGuid"></string>
+			<int name="CommitInflightPlaceVersion">0</int>
+			<bool name="EnableScriptCollabByDefaultOnLoad">false</bool>
+			<bool name="EnableTeamCreateStreamingOnLoad">false</bool>
+			<string name="Name">StudioData</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<int64 name="SrcPlaceId">8123085895</int64>
+			<int64 name="SrcUniverseId">3124993676</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a46e</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBXA6260DFD2DC24A4D832E8ED3048E177C">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">400</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">true</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<token name="LoadCharacterLayeredClothing">0</token>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a46f</UniqueId>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBX1E811AED025E4421B56A3DE3CE0B67BD">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterPlayerScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a519</UniqueId>
+			</Properties>
+			<Item class="LocalScript" referent="RBXFF154D79A11244F09CAADB640B5B9662">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Main</string>
+					<string name="ScriptGuid">{642033A3-0048-40AF-AC20-341193000CF8}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+    ChaosRBX
+    HawDevelopment
+    11/28/2021
+--]]
+
+local River = require(game.ReplicatedStorage.River)
+
+local Component = River.Component
+local Type = River.Type
+local Tag = River.Tag
+local Entity = River.Entity
+local System = River.System
+local Query = River.Query
+local World = River.World
+
+local Point = Component({
+    Position = Type("Vector3"),
+    Instance = Type("Instance"),
+    Color = Type("number")
+})
+local PointTag = Tag("Point")
+
+local PointInstance
+do
+    local part = Instance.new("Part")
+    part.Transparency = 1
+    part.Anchored = true
+    part.CanCollide = false
+    part.CastShadow = false
+    part.Size = Vector3.new(0.5, 0.5, 0.5)
+    part.Parent = game.Workspace
+    PointInstance = part
+    
+    local attachment1 = Instance.new("Attachment", part)
+    local attachment2 = Instance.new("Attachment", part)
+    attachment1.Position = Vector3.new(0, 0, 0.25)
+    
+    local trail = Instance.new("Trail")
+    trail.Attachment0 = attachment1
+    trail.Attachment1 = attachment2
+    trail.FaceCamera = true
+    trail.Lifetime = 1
+    trail.MaxLength = 1
+    trail.WidthScale = NumberSequence.new(1, 0)
+    trail.Parent = part
+end
+
+for _ = 1, 2000 do
+    local Position = Vector3.new(math.random(-400, 400) / 100, math.random(-400, 400) / 100, math.random(-400, 400) / 100) 
+    local Inst = PointInstance:Clone()
+    Inst.Position = Position
+    Inst.Parent = game.Workspace
+    Entity({
+        Point = Point({
+            Position = Position,
+            Color = Position.Magnitude,
+            Instance = Inst,
+        }),
+        PointTag
+    })
+end
+
+local SIGMA = 10
+local BETA = 8 / 3
+local RHO = 28
+local COLOR = 10
+
+local function Equation(origin, dt)
+    local dx = SIGMA * (origin.Y - origin.X)
+    local dy = origin.X * (RHO - origin.Z) - origin.Y
+    local dz = origin.X * origin.Y - BETA * origin.Z
+    return Vector3.new(dx * dt, dy * dt, dz * dt)
+end
+
+local UpdatePositon = System(function(entities, dt)
+    for _, value in pairs(entities) do
+        local point = value.Point
+        point.Instance.Position += Equation(point.Instance.Position, 0.2 * dt :: number)
+        point.Instance.Trail.Color = ColorSequence.new(Color3.fromHSV((tick() + point.Color) % COLOR / COLOR, 0.5, 1))
+    end
+end)
+UpdatePositon:add(Query(PointTag))
+
+local world = World()
+
+world:add(UpdatePositon, "update")
+
+world:start()]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">4b8cd173418cce7801b4f33e0008733d</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBX96A82FF5DDF74E168FFEC207AD2BF9FB">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">StarterCharacterScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a51c</UniqueId>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBXB4656F3E86094142BFF4F341993E4033">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterPack</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a470</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBXBD44C0D223C245A5A52D32012A04F506">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a471</UniqueId>
+			<token name="VirtualCursorMode">0</token>
+		</Properties>
+	</Item>
+	<Item class="LocalizationService" referent="RBX566CFF579B2C46B2A2B70923D8D5199F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LocalizationService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a473</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX44E5ECF946BD4232AD35019DC2549CC9">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Teleport Service</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a477</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX94FE432F141C459DBF2FCAA31D4BF44D">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CollectionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a479</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX067B408CE8794167B7FDEFDDB96B331A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">PhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a47a</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX08A6B1E09DF04C2BB50BDA45B8C69B23">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Geometry</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a47c</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBXA8ADB37333304E72B20DF22363C6F4EE">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">InsertService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a47e</UniqueId>
+		</Properties>
+		<Item class="StringValue" referent="RBX33A3D7FCA6AB4A0CB35ED15B34FCACB9">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">InsertionHash</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002fc0d</UniqueId>
+				<string name="Value">{5339A181-51F3-4736-9345-95813870FCCF}</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="GamePassService" referent="RBXBAB5B1D3EB774AA7AB9E22795A1D91EF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">GamePassService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a47f</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX371A8F76A3A1490595A27D5E2561C0C8">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a480</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX93F00CAF5A4747B7B200684517278222">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">CookiesService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a481</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBX7A1636C522A948A6BA0D4689777C8E48">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">VRService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a48b</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX0BF201B227BD449F8F87A36BA0255985">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ContextActionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a48c</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBXCBFDFEF03137470986D2ABE808F08CA2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a48e</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX75D3428368AF4328A08C3CD3610045CB">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AssetService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a48f</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBX680F5ED55C21445E9E97040557479459">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">TouchInputService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a490</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="AnalyticsService" referent="RBX68387F58E24E499F8B2D41442609ADE3">
+		<Properties>
+			<string name="ApiKey"></string>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">AnalyticsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a493</UniqueId>
+		</Properties>
+		<Item class="ModuleScript" referent="RBX6FF63D9835B848908A8890A3BB47A375">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">RobloxLSP_Settings</string>
+				<string name="ScriptGuid">{4E92D598-D3E2-427E-9681-5C1B2A83B4D0}</string>
+				<ProtectedString name="Source"><![CDATA[return {
+	port = 27843,
+	startAutomatically = false,
+	exclude = {
+		-- game:GetService("Workspace")
+	}
+}]]></ProtectedString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00023ef8</UniqueId>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="Selection" referent="RBXF781022185604E988907D91C5C508BB0">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Selection</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a496</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX9BBA6CDAB3614E1EB3DC0566B37CE324">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a498</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ServerStorage" referent="RBXE4E542C7029844D1AC7457D9F2CB9CA1">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ServerStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a499</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBXD492600B9EE44E6DA500A6FBA76CCBC4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ReplicatedStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a49a</UniqueId>
+		</Properties>
+		<Item class="ModuleScript" referent="RBXBC71F817D1FA4F249E1BD660F007DCB0">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">River</string>
+				<string name="ScriptGuid">{7A5BBD08-D7F3-450A-9B05-E13E4B567987}</string>
+				<ProtectedString name="Source"><![CDATA[--[[
+    Exposes the API
+    HawDevelopment
+    18/11/2021
+--]]
+
+local ECS = script.ECS
+local Types = require(script.Types)
+local Pools = require(script.Pools) -- Used in types
+local Scheduler = require(script.Internal.Scheduler) -- Used in types
+
+
+export type River = {
+    Entity: (tab: { [string | number]: Types.Queryable }) -> Types.Entity,
+    Component: (comptab: Types.Type | { [string | number]: Types.Type }) -> Types.Component,
+    Query: (toquery: Types.Queryable | { [string | number]: Types.Queryable }) -> Types.Query,
+    System: (func: (...Types.Query) -> nil) -> Types.System,
+    Tag: (name: string) -> Types.Tag,
+    Type: (combination: string) -> Types.Type,
+    World: () -> Types.World,
+    Pools: Pools.Pools,
+    Types: ModuleScript,
+    Internal: {
+        Scheduler: Scheduler.Scheduler,
+    }
+}
+
+return {
+    -- ECS
+    Entity = require(ECS.Entity),
+    Component = require(ECS.Component),
+    System = require(ECS.System),
+    Query = require(ECS.Query),
+    Tag = require(ECS.Tag),
+    Type = require(ECS.Type),
+    Types = script.Types,
+    World = require(ECS.World),
+    Pools = Pools,
+    
+    -- Internal (SHOULD NOT BE USED!)
+    Internal = {
+        Scheduler = Scheduler,
+    }
+} :: River]]></ProtectedString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024147</UniqueId>
+			</Properties>
+			<Item class="Folder" referent="RBX8624E0805BB1485799236372CB3A32EA">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">ECS</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024148</UniqueId>
+				</Properties>
+				<Item class="ModuleScript" referent="RBXAF9CB4E74F4F4FDB9380E23925EDB41C">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Component</string>
+						<string name="ScriptGuid">{CFF0079A-2659-4832-83FE-4DC5EF271D2A}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Component.
+    
+    Components are a way to specify the data that should be stored in an Entity.
+    Each key of a Component must be a string or number.
+    Each value of a Component must be a type. 
+    Components are stored in a pool.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Pools = require(Package.Pools)
+
+function TypeCheckTable(origin, new)
+    if type(origin) == "function" then
+        local succes = origin(new)
+        if not succes then
+            return false, "[ComponentType] Could not match values from origin and incoming!"
+        end
+    elseif type(origin) == "table" then
+        for key, value in pairs(origin) do
+            if not new[key] then
+                return false, "[ComponentType] Could not find key: " .. tostring(key) .. " in value!"
+            end
+            if type(new[key]) ~= "table" or (new[key].id) then
+                -- Typecheck the value
+                if not value(new[key]) then
+                    return false, "[ComponentType] Could not match values in key: "
+                        .. tostring(key)
+                        .. "! Origin type: "
+                        .. type(value) .. " New type: " .. type(new[key])
+                end
+            else
+                -- Recursively check the table
+                local success, message = TypeCheckTable(value, new[key])
+                if not success then
+                    return false, message
+                end
+            end
+        end
+    else
+        error("[ComponentType] Invalid origin type!")
+    end
+    return true
+end
+
+local GLOBAL_ID = 1
+local TYPE_CHECK = true
+local CLASS_META_TABLE = {
+    __call = function(self, value: any, typecheck: boolean): any
+        if typecheck and TYPE_CHECK then
+            local success, message = TypeCheckTable(self.ref, value)
+            if not success then
+                error(message .. " (typecheck)", 2)
+            end
+        end
+        return {
+            id = self.id,
+            ref = value,
+            ClassName = "ComponentValue"
+        }
+    end
+}
+
+return function (comptab: Types.Type | { [string | number]: Types.Type}): Types.Component
+    local component = setmetatable({
+        id = GLOBAL_ID,
+        ref = comptab,
+        entities = {},
+        built = {},
+        ClassName = "Component"
+    }, CLASS_META_TABLE) :: Types.Component
+    GLOBAL_ID += 1
+    
+    Pools.Component.data[component.id] = component
+    
+    return component
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024149</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBXD605535B524349F098229B4E94D82585">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Entity</string>
+						<string name="ScriptGuid">{E93B383C-5806-4506-A91E-9988A2053BEA}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Entity.
+    
+    An enitity is simbly a number, holding an id for some data.
+    Each entity must be made from some a table of components, and should be used with luau types.
+    Entities are stored in a pool.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Pools = require(Package.Pools)
+local Scheduler = require(Package.Internal.Scheduler)
+
+local GLOBAL_ID = 1
+
+return function (tab: { [string | number]: Types.Queryable }): Types.Entity
+    local enitity = GLOBAL_ID
+    GLOBAL_ID += 1
+    
+    local poolenity = {
+        id = enitity,
+        ref = tab,
+        ClassName = "Entity"
+    } :: Types.EntityIdentifier
+    
+    Pools.Entity.data[enitity] = poolenity
+    Scheduler:Handle({
+        name = "Bind",
+        object = poolenity,
+    })
+    
+    return enitity
+end
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002414a</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX4E6CF24A6D5946E6834C971A6A5D8CAE">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Query</string>
+						<string name="ScriptGuid">{4F3593FA-8365-41B2-B3BD-7AFE453A9046}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Query.
+    
+    A query is a way to get data from entities.
+    Querys are stored in a pool.
+    Should only (really) be used by systems.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Pools = require(Package.Pools)
+local Cleanup = require(Package.Internal.Cleanup)
+local Scheduler = require(Package.Internal.Scheduler)
+
+local Query = {}
+
+local GLOBAL_ID = 1
+local CLASS_META_TABLE = { __index = Query }
+local COLLECT_IN_INIT = true
+
+function Query:get(update: boolean)
+    if update then
+        self.resources = self:__update()
+    end
+    return self.resources
+end
+
+function Query:__collect()
+    if self.ref.ClassName then
+        -- A single resource.
+        self.collected = self.ref
+    else
+        -- A table of resources.
+        for key, ref in pairs(self.ref) do
+            self.collected[key] = ref
+        end
+    end
+end
+
+function Query:__update()
+    local pool = Pools.Query.data[self.id]
+    
+    if not pool then
+        Cleanup(self)
+        return warn("[Query] Could not find pool! Id: " .. tostring(self.id))
+    end
+    
+    if not COLLECT_IN_INIT then
+        self:collect()
+    end
+    
+    -- Now insert them into the pool.
+    self.resources = Scheduler:Handle({
+        name = "Query",
+        id = self.id,
+        resources = self.collected,
+        object = self :: Types.Query,
+    })
+    return self.resources
+end
+
+return function (toquery: Types.Queryable | { [string | number]: Types.Queryable }): Types.Query
+    local query = setmetatable({
+        id = GLOBAL_ID,
+        ref = toquery,
+        resources = {},
+        collected = {},
+        ClassName = "Query"
+    }, CLASS_META_TABLE) :: Types.Query
+    GLOBAL_ID += 1
+    
+    Pools.Query.data[query.id] = query
+    
+    if COLLECT_IN_INIT then
+        query:__collect()
+    end
+    task.defer(function ()
+        if Pools.Query.data[query.id] then
+            query:__update()
+        end
+    end)
+    
+    return query
+end
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002414b</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX762A9AB6EB114524BDB5984422909B44">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">System</string>
+						<string name="ScriptGuid">{404CC85E-24CC-49A2-AC37-A27BFE2D724E}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    System.
+    
+    A system is a function with metadata.
+    A system changes data of entities.
+    Any data is gotten from a pool.
+    Systems should be typed!
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Scheduler = require(Package.Internal.Scheduler)
+
+local System = {}
+
+local GLOBAL_ID = 1
+local CLASS_META_TABLE = { __index = System }
+
+function System:add(query: Types.Query): nil
+    table.insert(self.queries, query)
+    return nil
+end
+
+function System:call(): nil
+    Scheduler:Handle({
+        name = "Call",
+        object = self,
+    } :: Scheduler.CallOperation)
+end
+
+return function (func: (...Types.Query) -> nil): Types.System
+    local system = setmetatable({
+        id = GLOBAL_ID,
+        func = func,
+        queries = {},
+        ClassName = "System"
+    }, CLASS_META_TABLE) :: Types.System
+    GLOBAL_ID += 1
+    
+    return system
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002414c</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX02C87816A049410B8F02E10F4E6F638F">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Tag</string>
+						<string name="ScriptGuid">{57B154CF-E34E-4FC1-A4F8-FE8AD3762920}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Tag.
+    
+    Tags are a way to identify entities.
+    This makes it easy to get specific entities.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Pools = require(Package.Pools)
+
+local GLOBAL_ID = 1
+
+return function (name: string): Types.Tag
+    local tag = {
+        id = GLOBAL_ID,
+        name = name,
+        entities = {},
+        built = {},
+        ClassName = "Tag",
+    } :: Types.Tag
+    GLOBAL_ID += 1
+    
+    Pools.Tag.data[tag.id] = tag
+    
+    return tag
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002414d</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX32044C7046C643B8B4779A6B2ECB4615">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Type</string>
+						<string name="ScriptGuid">{AD5681E9-B123-412A-9793-17FCA198B6F7}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Type.
+    
+    Types are used to define the values of components.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Types = require(script.Parent.Parent.Types)
+
+local function CreatePrimitive(name)
+    return function (value)
+        return typeof(value) == name
+    end
+end
+
+local NameToFunc = {
+    -- Primitives
+    ["string"] = CreatePrimitive("string"),
+    ["number"] = CreatePrimitive("number"),
+    ["boolean"] = CreatePrimitive("boolean"),
+    ["table"] = CreatePrimitive("table"),
+    ["vector"] = CreatePrimitive("vector"),
+    ["function"] = CreatePrimitive("function"),
+    ["CFrame"] = CreatePrimitive("CFrame"),
+    ["Vector3"] = CreatePrimitive("Vector3"),
+    ["Vector2"] = CreatePrimitive("Vector2"),
+    ["UDim"] = CreatePrimitive("UDim"),
+    ["UDim2"] = CreatePrimitive("UDim2"),
+    ["Instance"] = CreatePrimitive("Instance"),
+    ["Color3"] = CreatePrimitive("Color3"),
+    ["EnumItem"] = CreatePrimitive("EnumItem"),
+    ["Enum"] = CreatePrimitive("Enum"),
+    ["any"] = function (_)
+        return true
+    end,
+    
+    -- ECS
+    ["Component"] = function(value)
+        return value.ClassName == "Component" and value.ref ~= nil
+    end,
+    ["Entity"] = function(value)
+        return type(value) == "number" or value.ClassName == "Entity"
+    end,
+    
+    -- I know i have sinned
+    ["System"] = function(value) return value.ClassName == "System" end,
+    ["Query"] = function(value) return value.ClassName == "Query" end,
+    ["Tag"] = function(value) return value.ClassName == "Tag" end,
+    ["Type"] = function(value) return value.ClassName == "Type" end
+}
+
+local CHACHE = {}
+local GLOBAL_ID = 1
+local CLASS_META_TABLE = {
+    __call = function(self, value: any): boolean
+        return NameToFunc[self.name](value)
+    end,
+}
+
+return function (name: string): Types.Type
+    if CHACHE[name] then
+        return CHACHE[name]
+    end
+    if not NameToFunc[name] then
+        error("Type combination not found: " .. name .. "\n (Note: This type could not be supported yet!)", 2)
+    end
+    
+    local type = setmetatable({
+        id = GLOBAL_ID,
+        name = name,
+        ClassName = "Type"
+    }, CLASS_META_TABLE) :: Types.Type
+    CHACHE[name] = type
+    
+    return type
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002414e</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX98D6BA3282134101A11C99C2D6DF0E11">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">World</string>
+						<string name="ScriptGuid">{C59CD653-2E75-4347-9F12-B3EE804818D4}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    World.
+    
+    World contains all the systems in the world and runs them.
+    
+    HawDevelopment
+    19/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Scheduler = require(Package.Internal.Scheduler)
+
+local World = {}
+
+local WORLDS = {}
+local GLOBAL_ID = 1
+local CLASS_META_TABLE = { __index = World }
+
+function World:add(system: Types.System, whentocall: string?)
+    whentocall = whentocall or "update"
+    
+    if self.systems[whentocall][system] then
+        error("[World] System already exists!")
+    end
+    if self.running then
+        if whentocall == "start" and self.started then
+            Scheduler:Enque({
+                name = "Call",
+                object = system,
+            })
+        elseif whentocall == "stop" and self.done then
+            Scheduler:Enque({
+                name = "Call",
+                object = system,
+            })
+        end
+    end
+    self.systems[whentocall][system] = true
+end
+
+function World:__update(dt)
+    for value, _ in pairs(self.systems.update) do
+        Scheduler:Handle({
+            name = "Call",
+            object = value,
+            dt = dt,
+        })
+    end
+end
+
+function World:start()
+    self.started = true
+    self.running = true
+    WORLDS[self.id] = self
+    
+    for value, _ in pairs(self.systems.start) do
+        Scheduler:Handle({
+            name = "Call",
+            object = value,
+        })
+    end
+end
+
+function World:stop()
+    self.done = true
+    self.started = false
+    
+    for value, _ in pairs(self.systems.stop) do
+        Scheduler:Handle({
+            name = "Call",
+            object = value,
+        })
+    end
+    WORLDS[self.id] = nil
+end
+
+local RunService = game:GetService("RunService")
+
+RunService:BindToRenderStep("River-World", Enum.RenderPriority.First.Value, function(dt)
+    for _, value in pairs(WORLDS) do
+        value:__update(dt)
+    end
+end)
+
+return function ()
+    local world = setmetatable({
+        id = GLOBAL_ID,
+        systems = { start = {}, update = {}, stop = {} },
+        ClassName = "World",
+        started = false,
+        done = false,
+        running = false,
+    }, CLASS_META_TABLE) :: Types.World
+    
+    GLOBAL_ID += 1
+    
+    return world
+end
+]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0002414f</UniqueId>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBX9A3CA4D0F7534E7780B6CA335B59256C">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Internal</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024150</UniqueId>
+				</Properties>
+				<Item class="ModuleScript" referent="RBX60F2D11673664E0E9A6FD01B300D4914">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Cleanup</string>
+						<string name="ScriptGuid">{148B3DDD-E790-4913-A8E2-B4F0F6E81CD0}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Cleanup.
+    
+    "Destroys" objects.
+    Returns true if the object was cleanedup.
+    
+    HawDevelopment
+    19/11/2021
+--]]
+
+type Identifier = table & {
+    id: number;
+    ref: any?;
+    ClassName: string;
+}
+
+return function (value: any): boolean
+    if type(value) == "table" then
+        -- Cast to Identifier.
+        value = value :: Identifier
+        if value.ref then
+            value.ref = nil
+        end
+        return true
+    elseif typeof(value) == "Instance" then
+        value = value :: Instance
+        if value:IsA("RBXScriptConnection") then
+            value:Disconnect()
+        else
+            value:Destroy()
+        end
+        return true
+    end
+    
+    return false
+end]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024151</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBXF011937971504C3D8DBA5C0F02BA75FF">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Pool</string>
+						<string name="ScriptGuid">{97ACF706-06BA-4A9C-B86C-CD653EDA5A9F}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Pool.
+    
+    A pool is a table containg ids as keys and data as values.
+    Used for storing data.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Types = require(script.Parent.Parent.Types)
+
+function Pool(name: string): Types.Pool
+    return {
+        name = name,
+        data = {} :: { [number]: any },
+        ClassName = "Pool"
+    }
+end
+
+return Pool]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024152</UniqueId>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX9686492DC77645A18A0D385FAFDF1BE6">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">Scheduler</string>
+						<string name="ScriptGuid">{689115F8-23A9-4232-A5F5-53746BBB84DF}</string>
+						<ProtectedString name="Source"><![CDATA[--[[
+    Scheduler.
+     
+    Handles how resourcer are gotten.
+    
+    HawDevelopment
+    19/11/2021
+--]]
+
+local Package = script.Parent.Parent
+
+local Types = require(Package.Types)
+local Pools = require(Package.Pools)
+
+export type Scheduler = {
+    Handle: (operation: Operation) -> nil,
+}
+export type QueryOperation = {
+    name: string,
+    id: number,
+    resources: { [any]: any },
+    object: Types.Query<any>
+}
+export type BindOperation = {
+    name: string,
+    object: Types.EntityIdentifier
+}
+export type CallOperation = {
+    name: string,
+    object: Types.System,
+    dt: number,
+}
+type Operation = QueryOperation | BindOperation | CallOperation
+
+local CACHE_CLEAR_TIMES = {
+    Entity = 1200,
+    Component = 600,
+    Tag = 600,
+    Query = 100,
+    Args = 100,
+}
+local CACHE_CLEAR_INTERVAL = {}
+for key, _ in pairs(CACHE_CLEAR_TIMES) do
+    CACHE_CLEAR_INTERVAL[key] = 0
+end
+
+local Scheduler = {}
+
+local Cache = {
+    Entity = {},
+    Component = {},
+    Tag = {},
+    Args = {},
+    Query = {},
+}
+
+function QueryObject(resource: Types.Queryable, key: any?): any
+    local object
+    if resource.ClassName == "Entity" then
+        object = Pools.Entity.data[resource.id]
+    elseif resource.ClassName == "Component" then
+        local comp = Pools.Component.data[resource.id]
+        for id, _ in ipairs(comp.entities :: { any }) do
+            if not comp.built[id] then
+                comp.built[id] = Pools.Entity.data[id].ref[key]
+            end
+        end
+        for id, _ in ipairs(comp.built :: { any }) do
+            if not comp.entities[id] then
+                comp.built[id] = nil
+            end
+        end
+        object = comp.built
+    elseif resource.ClassName == "Tag" then
+        local tag = Pools.Tag.data[resource.id]
+        for id, _ in ipairs(tag.entities :: { any }) do
+            if not tag.built[id] then
+                local built = {}
+                for name, value in pairs((Cache.Entity[id] or Pools.Entity.data[id]).ref :: { any }) do
+                    built[name] = value.ref
+                end
+                tag.built[id] = built
+            end
+        end
+        for id, _ in ipairs(tag.built :: { any }) do
+            if not tag.entities[id] then
+                tag.built[id] = nil
+            end
+        end
+        object = tag.built
+        
+    elseif resource.ClassName == "Query" then
+        local resource = resource :: Types.Query<any>
+        object = resource:__update()
+    else
+        error("[Scheduler] Could not get object with name: " .. tostring(resource.ClassName))
+    end
+    return object
+end
+
+function Scheduler:Handle(operation: Operation): { [any]: any } | nil
+    if operation.name == "Query" then
+        -- We want to get all the resources.
+        -- And then insert them into a table or pool.
+        
+        -- If the query is alrady cache, then we should return the cached value.
+        local operation = operation :: QueryOperation 
+        if Cache.Query[operation.id] then
+            return Cache.Query[operation.id]
+        end
+        
+        local objects = operation.resources :: { [any]: Types.Queryable } | Types.Queryable
+        local resources
+        if objects.ClassName then
+            -- This is a single resource.
+            resources = Cache[objects.ClassName][objects.id] or QueryObject(objects :: Types.Queryable, nil)
+            Cache[objects.ClassName][objects.id] = resources
+        else
+            -- A table of resources.
+            resources = {}
+            for key, resource in pairs(objects) do
+                local object = Cache[resource.ClassName][resource.id] or QueryObject(resource, key)
+                if not Cache[resource.ClassName][resource.id] then
+                    Cache[resource.ClassName][resource.id] = object
+                end
+                resources[key] = object
+            end
+        end
+        Cache.Query[operation.id] = resources
+        return resources
+    elseif operation.name == "Bind" then
+        -- Adds an object to a pool.
+        local operation = operation :: BindOperation
+        for _, object in pairs(operation.object.ref :: { [any]: Types.Bindable }) do
+            if type(object) == "table" and object.ClassName then
+                if object.entities then
+                    object.entities[operation.object.id] = true
+                end
+                if object.ClassName == "Tag" then
+                    local tag = Pools.Tag.data[object.id]
+                    if not tag.built[operation.object.id] then
+                        local built = {}
+                        for name, value in pairs(operation.object.ref :: { any }) do
+                            built[name] = value.ref
+                        end
+                        tag.built[operation.object.id] = built
+                    end
+                elseif object.ClassName == "ComponentValue" then
+                    local comp = Pools.Component.data[object.id]
+                    if not comp.built[operation.object.id] then
+                        comp.built[operation.object.id] = operation.object.ref
+                    end
+                end
+            end
+        end
+        
+    elseif operation.name == "Call" then
+        -- Update queries.
+        local operation = operation :: CallOperation
+        local args
+        if Cache.Args[operation.object.id] then
+            args = Cache.Args[operation.object.id]
+        else
+            args = {}
+            for _, value in ipairs(operation.object.queries) do
+                table.insert(args, value:__update())
+            end
+            Cache.Args[operation.object.id] = args
+        end
+        -- Call the system with the queries.
+        task.spawn(operation.object.func, unpack(args), operation.dt)
+    end
+end
+
+function Scheduler:__update(dt: number): nil
+    for key, value in pairs(CACHE_CLEAR_INTERVAL) do
+        local time = value + dt * 60
+        CACHE_CLEAR_INTERVAL[key] = time
+        if time >= CACHE_CLEAR_TIMES[key] then
+            table.clear(Cache[key])
+            CACHE_CLEAR_INTERVAL[key] = 0
+        end
+    end
+end
+
+local RunService = game:GetService("RunService")
+RunService:BindToRenderStep("River-Scheduler", Enum.RenderPriority.First.Value, function(dt)
+    Scheduler:__update(dt)
+end)
+
+return Scheduler]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024153</UniqueId>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="ModuleScript" referent="RBX75E6B7934F9F4CF18BB474F68FE82C9E">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Pools</string>
+					<string name="ScriptGuid">{D3986B2D-573C-4994-B831-64A12D1E296E}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+    Pools.
+    
+    Pools is a list of internal pools.
+    Can be used for outside reads and writes. (BUT ISNT ADVISED!)
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+local Package = script.Parent
+
+local Pool = require(Package.Internal.Pool)
+local Types = require(Package.Types)
+
+export type Pools = {
+    Component: Types.Pool,
+    Entity: Types.Pool,
+    Query: Types.Pool,
+    Tag: Types.Pool,
+}
+
+return {
+    Component = Pool("Component"),
+    Entity = Pool("Entity"),
+    Query = Pool("Query"),
+    Tag = Pool("Tag"),
+} :: Pools
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024154</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXF7CD2074452F440C8BF2F2605F821729">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Types</string>
+					<string name="ScriptGuid">{AF0065CA-9809-4EB5-95EC-CF80E92463D9}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+    Types.
+    
+    A list of types used for type checking.
+    
+    HawDevelopment
+    18/11/2021
+--]]
+
+export type Query = {
+    id: number,
+    ref: Queryable | { [string | number]: Queryable },
+    resources: { [any]: any },
+    collected: Queryable | { [string | number]: Queryable },
+    ClassName: string,
+    resources: { [any]: any },
+    
+    __collect: (self: Query) -> nil,
+    __update: (self: Query) -> { [any]: any },
+}
+export type Entity = number
+export type System = { 
+    id: number,
+    func: (...Queryable) -> nil,
+    queries: { [number]: Query },
+    ClassName: string,
+    
+    add: (self: System, query: Queryable) -> nil,
+}
+export type Component = WithMeta<{
+    id: number,
+    ref: Type | { [string | number]: Type },
+    entities: { any },
+    built: { any },
+    ClassName: string
+}, {
+    __call: (value: any, typecheck: boolean?) -> any
+}>
+
+export type Tag = {
+    id: number,
+    name: string,
+    entities: { [number]: Entity },
+    built: { [any]: any },
+    ClassName: string,
+}
+export type Type = WithMeta<{
+    id: number,
+    combination: string,
+    ClassName: string
+}, {
+    __call: (self: Type, value: any) -> boolean
+}>
+export type World = {
+    id: number,
+    systems: { start: {}, update: {}, stop: {} },
+    ClassName: string,
+    started: boolean,
+    done: boolean,
+    running: boolean,
+    
+    start: (self: World) -> nil,
+    stop: (self: World) -> nil,
+    add: (self: World, system: System, whentocall: string?) -> nil,
+}
+
+export type Queryable = Component | EntityIdentifier | System | Tag | Query
+export type Bindable = Component | Tag
+
+-- Pool types
+export type EntityIdentifier = {
+    id: number,
+    ref: { [string | number]: Queryable },
+    ClassName: string
+}
+export type Pool = {
+    name: string,
+    data: { [any]: any},
+    ClassName: string,
+}
+
+return nil]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024155</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LuaWebService" referent="RBX6D694B9487194BEBAE8650FBCFDCE938">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a4a1</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ProcessInstancePhysicsService" referent="RBXAA0028C124CF4406B14BBE373060F570">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">ProcessInstancePhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a4a4</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="LanguageService" referent="RBXCF74FC18778B4B309A1B9E611B370665">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LanguageService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a4ad</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBXCC74E4607EF74E939EDD7FBCBB27B178">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<float name="Brightness">2</float>
+			<Color3 name="ColorShift_Bottom">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="EnvironmentDiffuseScale">0</float>
+			<float name="EnvironmentSpecularScale">0</float>
+			<float name="ExposureCompensation">0</float>
+			<Color3 name="FogColor">
+				<R>0.75</R>
+				<G>0.75</G>
+				<B>0.75</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>0.5</R>
+				<G>0.5</G>
+				<B>0.5</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<float name="ShadowSoftness">0.5</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">1</token>
+			<string name="TimeOfDay">14:00:00</string>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc0001a4e0</UniqueId>
+		</Properties>
+		<Item class="Sky" referent="RBX7ABED2630583482486BADD0D1E21B5B9">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="CelestialBodiesShown">false</bool>
+				<float name="MoonAngularSize">11</float>
+				<Content name="MoonTextureId"><url>rbxasset://sky/moon.jpg</url></Content>
+				<string name="Name">Solid Black Skybox</string>
+				<Content name="SkyboxBk"><url>http://www.roblox.com/asset/?ID=2013298</url></Content>
+				<Content name="SkyboxDn"><url>http://www.roblox.com/asset/?ID=2013298</url></Content>
+				<Content name="SkyboxFt"><url>http://www.roblox.com/asset/?ID=2013298</url></Content>
+				<Content name="SkyboxLf"><url>http://www.roblox.com/asset/?ID=2013298</url></Content>
+				<Content name="SkyboxRt"><url>http://www.roblox.com/asset/?ID=2013298</url></Content>
+				<Content name="SkyboxUp"><url>http://www.roblox.com/asset/?ID=2013298</url></Content>
+				<int64 name="SourceAssetId">113702652</int64>
+				<int name="StarCount">0</int>
+				<float name="SunAngularSize">21</float>
+				<Content name="SunTextureId"><url>rbxasset://sky/sun.jpg</url></Content>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00024787</UniqueId>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="HttpService" referent="RBXF4C82F71FF0F424A8FB8AC47770C2E94">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00023708</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ProximityPromptService" referent="RBXF4A3FE2B754C4CF796E72269A7947438">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="Enabled">true</bool>
+			<int name="MaxPromptsVisible">16</int>
+			<string name="Name">ProximityPromptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00023935</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TestService" referent="RBX90A20F9E50774D858CCFE61AF56F95B8">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoRuns">true</bool>
+			<string name="Description"></string>
+			<bool name="ExecuteWithStudioRun">false</bool>
+			<bool name="Is30FpsThrottleEnabled">true</bool>
+			<bool name="IsPhysicsEnvironmentalThrottled">true</bool>
+			<bool name="IsSleepAllowed">true</bool>
+			<string name="Name">TestService</string>
+			<int name="NumberOfPlayers">0</int>
+			<double name="SimulateSecondsLag">0</double>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<double name="Timeout">10</double>
+			<UniqueId name="UniqueId">753a2a89e68071c101b4cedc00023f89</UniqueId>
+		</Properties>
+	</Item>
+	<SharedStrings>
+		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
+	</SharedStrings>
+</roblox>
